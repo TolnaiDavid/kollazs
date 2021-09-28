@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>KÉPLINK</title>
+</head>
+<body>
+
+<h1>Tolnai Dávid</h1>
+<p>Kép+link feladat</p>
+<a href="https://www.zoldiwebshop.hu/termek/alma/" target="blank">
+
+<img src="https://www.zoldiwebshop.hu/wp-content/uploads/2020/04/alma-1.jpg"alt="ez itt egy alma" title="alma" width=250> 
+<a>
+
+</body>
+</html>
