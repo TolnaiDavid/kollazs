@@ -6,12 +6,10 @@
         <title>Tolnai Dávid oldala</title>
     </head>
     <body style="background-color: yellow;">
-        <h1 style="color: blue;" >Tolnai Dávid</h1>
-        <h2 style="color: brown" >Tolnai Dávid</h2>
-        <h3 style="color: yellowgreen;">Tolnai Dávid</h3> 
-        <h4 style="color: darkgreen;">Tolnai Dávid</h4> 
-        <h5 style="color: red;">Tolnai Dávid</h5>
+    <h1>Képlink</h1>
+
         <a href="https://www.zoldiwebshop.hu/termek/alma/" target="blank">
+        
 
         <img src="https://raw.githubusercontent.com/TolnaiDavid/kollazs/main/kollazs.02.png"alt="ez itt a kollazs képem" title="kollazs kép" width=250> 
         <a>
