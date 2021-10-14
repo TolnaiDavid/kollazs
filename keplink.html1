@@ -8,10 +8,7 @@
     <body style="background-color: yellow;">
     <h1>Képlink</h1>
 
-        <a href="https://www.zoldiwebshop.hu/termek/alma/" target="blank">
-        
-
         <img src="https://raw.githubusercontent.com/TolnaiDavid/kollazs/main/kollazs.02.png"alt="ez itt a kollazs képem" title="kollazs kép" width=250> 
-        <a>
+       
     </body>
 </html>
