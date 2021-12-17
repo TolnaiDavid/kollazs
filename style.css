@@ -4,29 +4,26 @@ body {
 }
 .sidebar {
   margin: 0;
-  padding: 0;
-  width: 1500px;
+  padding: 16px;
+  width: 1000px;
   background-color: #ff9900;
   height: 100%;
   overflow: auto;
 }
 
 .sidebar a {
-  display: ;
-  color: rgb(9, 111, 228);
+  display: ;  
+  color: rgb(34, 4, 163);
   padding: 16px;
   text-decoration: none;
 }
- 
+
 .sidebar a.active {
-  background-color: #133beb;
-  color: white;
+  background-color: red;
+  color: rgba(238, 255, 0, 0.945);
 }
 
 .sidebar a:hover:not(.active) {
   background-color: #555;
   color: white;
-}
-.sidebar a {float: initial;}
-div.content {margin-left: 0;
 }
