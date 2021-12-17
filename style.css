@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 1500px;
+  background-color: #ff9900;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: ;
+  color: rgb(9, 111, 228);
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #133beb;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+.sidebar a {float: initial;}
+div.content {margin-left: 0;
+}
