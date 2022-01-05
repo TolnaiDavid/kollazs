@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 16px;
   width: 1000px;
+  position: fixed;
   background-color: #ff9900;
   height: 100%;
   overflow: auto;
