@@ -38,22 +38,7 @@ div.content {
     display: none;
 }
 
-table {
-    border: 2px solid rgb(141, 113, 113);
-}
 
-th {
-    background-color: #4CAF50;
-    color: white;
-}
-
-td {
-    background-color: white;
-    color: black;
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
-}
 
 @media screen and (max-width: 700px) {
     .sidebar {
