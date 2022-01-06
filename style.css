@@ -4,16 +4,16 @@ body {
 }
 .sidebar {
   margin: 0;
-  padding: 16px;
-  width: 1000px;
-  
+  padding: 0;
+  width: 200px;
+  position: fixed;
   background-color: #ff9900;
   height: 100%;
   overflow: auto;
 }
 
 .sidebar a {
-  display: ;  
+  display: block;  
   color: rgb(34, 4, 163);
   padding: 16px;
   text-decoration: none;
@@ -28,4 +28,56 @@ body {
   background-color: #555;
   color: white;
 }
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
 
+.oszlop {
+    display: none;
+}
+
+table {
+    border: 2px solid rgb(141, 113, 113);
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    background-color: white;
+    color: black;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {
+        float: left;
+    }
+    div.content {
+        margin-left: 0;
+    }
+    .sor {
+        display: none;
+    }
+    .oszlop {
+        display: table;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
