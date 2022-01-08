@@ -13,7 +13,7 @@ body {
 }
 
 .sidebar a {
-   
+   display: block;
   color: rgb(34, 4, 163);
   padding: 16px;
   text-decoration: none;
@@ -28,41 +28,4 @@ body {
   background-color: #555;
   color: white;
 }
-div.content {
-    margin-left: 200px;
-    padding: 1px 16px;
-    height: 1000px;
-}
 
-.oszlop {
-    display: none;
-}
-
-
-
-@media screen and (max-width: 700px) {
-    .sidebar {
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
-    .sidebar a {
-        float: left;
-    }
-    div.content {
-        margin-left: 0;
-    }
-    .sor {
-        display: none;
-    }
-    .oszlop {
-        display: table;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .sidebar a {
-        text-align: center;
-        float: none;
-    }
-}
