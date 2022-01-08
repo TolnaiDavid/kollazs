@@ -1,3 +1,17 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+.sidebar {
+  margin: 0;
+  padding: 16px;
+  width: 180px;
+  background-color: #ff9900;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
 .sidebar a {
   display: block;  
   color: rgb(34, 4, 163);
