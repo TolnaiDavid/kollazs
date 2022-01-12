@@ -10,6 +10,7 @@ body {
   position: fixed;
   height: 100%;
   overflow: auto;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .sidebar a {
