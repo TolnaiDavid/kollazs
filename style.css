@@ -2,6 +2,10 @@ body {
     margin: 0;
     font-family: "Lato", sans-serif;
 }
+
+fieldset {
+ width: 330px;
+}
 .sidebar {
   margin: 0;
   padding: 16px;
