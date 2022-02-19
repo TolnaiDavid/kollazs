@@ -30,17 +30,17 @@
 
     </head>
     <div class="sidebar">
-        <nav>
-            <a class="active" href="https://tolnaidavid.github.io/kollazs/index.html">HOME(indexhtml)</a>
+  
+            <a href="https://tolnaidavid.github.io/kollazs/index.html">HOME(indexhtml)</a>
             <a href="https://tolnaidavid.github.io/kollazs/listak.html">listák feladat</a>
             <a href="https://tolnaidavid.github.io/kollazs/egeszseges.html">egészséges feladat</a>
             <a href="https://tolnaidavid.github.io/kollazs/orarend.html">órerend feladat</a>
-            <a href> 
-        </nav> 
+            <a class="active" href="https://tolnaidavid.github.io/kollazs/urlap.html">Űrlap</a>
+    
     </div>
     <div class="content">
         <form name="rendeles">
-            <h1>Pizza Rendelés</h1>
+            <h1>Vitamin rendelés</h1>
             <fieldset>
                 <legend>Vevő adatai:</legend>
                 <p><label>Név: <input type="text" name="nev">
@@ -48,15 +48,15 @@
                 <p><label>Telefon: <input type="tel" name="telefon" size="10"></label></p>
             </fieldset>
             <fieldset>
-                <legend>Pizza mérete</legend>
-                <p><label><input type="radio" name="meret" value="kicsi">kicsi</label></p>
-                <p><label><input type="radio" name="meret" value="nagy">nagy</label></p>
+                <legend>Vitamin adag</legend>
+                <p><label><input type="radio" name="gramm" value="keves">kis adag (50g)</label></p>
+                <p><label><input type="radio" name="gramm" value="sok">nagy adag (100g)</label></p>
             </fieldset>
             <fieldset>
-                <legend>Feltétek</legend>
-                <p><label><input type="checkbox" name="feltet1" value="sonka">sonka</label></p>
-                <p><label><input type="checkbox" name="feltet2" value="sajt">sajt</label></p>
-                <p><label><input type="checkbox" name="feltet3" value="gomba">gomba</label></p>
+                <legend>Vitamin félék</legend>
+                <p><label><input type="checkbox" name="vitamin" value="Avitamin">Csak A-vitamin</label></p>
+                <p><label><input type="checkbox" name="vitamin" value="ABvitamin">A+B-vitamin</label></p>
+                <p><label><input type="checkbox" name="vitamin" value="ABCvitamin">A+B+C-vitamin</label></p>
             </fieldset>
             <fieldset>
                 <legend>Végezetül</legend>
