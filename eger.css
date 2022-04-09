@@ -1,0 +1,22 @@
+body{
+    margin-left: 0px;
+    padding: 1px 16px;
+    height: 1000px;
+    background: green;
+}
+td,
+tr {
+    border: 5px solid black;
+    width: 500px;
+
+}
+
+table {
+    text-align: center;
+    border: 3px solid red;
+    background-color: yellow;
+
+}
+.ez{
+    background-color: white;
+}
