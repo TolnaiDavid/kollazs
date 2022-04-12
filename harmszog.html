@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="háromszög.png">
+    <fieldset style="width: fit-content;">
+        <input type="number" name="a" id="aold" placeholder="szám"><br>
+        <input type="number" name="b" id="bold" placeholder="szám"><br>
+
+        <button onclick="szamol(aold.value,bold.value)">
+            <p>számolás</p>
+        </button>
+    </fieldset>
+
+    <p id="ered"></p>
+
+    <script>
+        function szamol(a, b) {
+            var c = 0
+            c = Math.sqrt(a * a + b * b)
+            document.getElementById("ered").innerHTML = c
+        }
+
+
+    </script>
+</body>
+
+</html>
